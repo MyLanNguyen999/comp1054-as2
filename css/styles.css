@@ -3,51 +3,167 @@
 html {
     margin: 10px;
     padding: 10px;
-    font-size: 16px;;
+    font-size: 16px;   
+    font-family: "Roboto", sans-serif;
+}
+body {
+    margin: 0 auto;
+    width: 80%;
 }
 main {
-    /* display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around; */
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 10px;
+    margin: 0 auto;
 }
 div {
-    /* width: 40%; */
-    
+    /* width: 50%; */
+    margin: 0 auto;
+}
+main div:nth-of-type(1){
+    width: 55%;
+}
+div:nth-of-type(2) {
+    width: 45%;
 }
 header p {
     text-transform: uppercase;
+    text-align: left;
+}
+header h1, section h2, aside h2 {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    text-transform: lowercase;
 }
 header h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 12rem;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    color: rgba(255, 132, 0, 0.954);
 }
-
 h2 {
     font-size: 3rem;
+    padding: 0px;
+    /* background-color: darkcyan; */
+    margin: 0px;
 }
 h3 {
     text-transform: uppercase;
 }
-aside {
-    background-color: aqua;
-    /* display: inline-flex;
-    flex-direction: column; */
+
+img {
+    /* background-color: black; */
+    display: block;
+    margin: auto;
+    height: 550px;
+    width: 385px;
+}
+figcaption p:nth-of-type(1) {
+    /* background-color: blueviolet; */
+    color: white;
+    position: absolute;
+        top: 88%;
+        left: 20%;
+}
+figcaption p:nth-of-type(2) {
+    /* background-color: aliceblue; */
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -45%;
+    left: 9%;
+}
+figcaption p em {
+    font-family: "Zilla Slab", serif;
+    font-size: 5rem;
+    display: block;
+}
+aside h2 {
+    margin: 0px;
 }
 aside:nth-of-type(2) {
-    background-color: lightcoral;
+    border: 3px solid rgba(255, 132, 0, 0.954);
+    box-shadow: 2px 3px 6px 2px gray;
+    padding: 5px;
+    width: 79%;
+    display: block;
+    margin-left: auto;
+    margin-right: 33px;
+}
+aside ol {
+    /* background-color: aquamarine; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+aside:nth-of-type(5) {
+    background-color: rgb(255, 0, 0);
     border: solid black;
     padding: 5px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: 33px;
 }
 aside figure, aside figcaption {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+}
+aside > ol, aside > p {
+    font-weight: bold;
+}
+
+aside > p > em {
+    text-transform: uppercase;
 }
 section {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+ol {
+    /* background-color: rgba(255, 174, 0, 0.908); */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+li {
+    padding-bottom: 5px;
+}
+li > h3, li > p {
+    display: inline;
+}
+li h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: ;
+}
+section:nth-of-type(1) h2 {
+    border-top: solid 20px rgb(37, 159, 37);
+    margin-top: 14px;
+}
+section:nth-of-type(1) h3 {
+    color: rgb(37, 159, 37);
+}
+section:nth-of-type(2) h2 {
+    border-top: solid 20px rgb(251, 9, 49);
+}
+section:nth-of-type(2) h3 {
+    color: rgb(251, 9, 49);
+}
+section:nth-of-type(3) h2 {
+    border-top: solid 20px darkcyan;
+}
+section:nth-of-type(3) h3 {
+    color: darkcyan;
 }
 footer {
     text-align: right;
+    text-transform: uppercase;
+}
+footer em {
+    color: rgba(255, 132, 0, 0.954);
 }
