@@ -5,13 +5,14 @@ html {
     padding: 10px;
     font-size: 16px;   
     font-family: "Roboto", sans-serif;
+    
 }
 body {
     margin: 0 auto;
     width: 80%;
+    
 }
 main {
-    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -33,6 +34,7 @@ div:nth-of-type(2) {
 header p {
     text-transform: uppercase;
     text-align: left;
+    margin-left: 55px;
 }
 header h1, section h2, aside h2 {
     font-family: "Zilla Slab", serif;
