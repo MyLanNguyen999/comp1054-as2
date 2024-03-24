@@ -5,7 +5,6 @@ html {
     padding: 10px;
     font-size: 16px;   
     font-family: "Roboto", sans-serif;
-    
 }
 body {
     margin: 0 auto;
@@ -57,28 +56,42 @@ h2 {
 h3 {
     text-transform: uppercase;
 }
-
+div:nth-of-type(2) {
+    background-color: lightgray;
+}
+aside:nth-of-type(1) {
+    /* background-color: aquamarine; */
+    position: relative;
+}
+aside figcaption {
+    /* position: absolute;
+        top: 0;
+        left: 0; */
+    display: grid;
+}
 img {
     /* background-color: black; */
-    display: block;
+    /* display: block; */
     margin: auto;
     height: 550px;
     width: 385px;
 }
 figcaption p:nth-of-type(1) {
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
+    float: right;
     color: white;
-    position: absolute;
+    /* position: absolute;
         top: 88%;
-        left: 20%;
+        left: 20%; */
 }
 figcaption p:nth-of-type(2) {
     /* background-color: aliceblue; */
     transform: rotate(-90deg);
     text-transform: uppercase;
-    position: absolute;
+    
+    /* position: absolute;
     bottom: -45%;
-    left: 9%;
+    left: 9%; */
 }
 figcaption p em {
     font-family: "Zilla Slab", serif;
