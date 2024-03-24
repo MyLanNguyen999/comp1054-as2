@@ -154,7 +154,7 @@ li > h3, li > p {
 }
 li h3 {
     font-family: "Roboto", sans-serif;
-    font-size: ;
+    font-size: 18px;
 }
 section:nth-of-type(1) h2 {
     border-top: solid 20px rgb(37, 159, 37);
